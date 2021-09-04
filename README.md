@@ -10,8 +10,9 @@ $ sudo pip3 install -r requirments.txt
 $ ./migrate.py -h
 usage: redis-1.py [-h] [--pool POOL] source destination
 
-A simple & multithreaded Redis Migrator in python. Note -> Connection strings should be in this format: <host>:<port>/<db> Critical Note -> You Need memory a
-little bit highter than data that you want to transfer (You Will not lose your data)
+A simple & multithreaded Redis Migrator in python.
+Note -> Connection strings should be in this format: <host>:<port>/<db>
+Critical Note -> You Need memory a little bit highter than data that you want to transfer (You Will not lose your data)
 
 positional arguments:
   source                Connection string for Source Database
