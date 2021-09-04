@@ -25,3 +25,4 @@ $ ./migrate.py -h
 
 ## TODO
 - [ ] Add web GUI
+- [ ] Add support for authentication
