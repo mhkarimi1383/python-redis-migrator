@@ -22,3 +22,6 @@ optional arguments:
   -h, --help            show this help message and exit
   --pool POOL, -p POOL  How many threads to open? Default: 8
 ```
+
+## TODO
+- [ ] Add web GUI
