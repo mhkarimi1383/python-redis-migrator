@@ -65,7 +65,7 @@ def run():
     parser.add_argument('--connections', '-c', type=int, default=8, help='Number of connection to use in connection pool for each database')
 
     options = parser.parse_args()
-    migrate_redis(options.source, options.destination, options.pool_size, options.source_password, options.destination_password, options.connections)
+    migrate_redis(options.source, options.destination, options.pool, options.source_password, options.destination_password, options.connections)
 
 if __name__ == '__main__':
     run()
